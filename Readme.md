@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/WmsDataProviderExample/Form1.cs) (VB: [Form1.vb](./VB/WmsDataProviderExample/Form1.vb))
+<!-- default file list end -->
 # How to obtain a collection of available WMS layers in the RensponseCapabilities event handler
 
 
