@@ -29,7 +29,7 @@ Namespace WmsDataProviderExample
             AddHandler Provider.ResponseCapabilities, AddressOf OnResponseCapabalities
         End Sub
 
-        Private Sub OnResponseCapabalities(ByVal sender As Object, ByVal e As CapabilitiesResponsedEventArgs)
+        Private Sub OnResponseCapabalities(ByVal sender As Object, ByVal e As CapabilitiesRespondedEventArgs)
             tlLayers.DataSource = e.Layers
         End Sub
 

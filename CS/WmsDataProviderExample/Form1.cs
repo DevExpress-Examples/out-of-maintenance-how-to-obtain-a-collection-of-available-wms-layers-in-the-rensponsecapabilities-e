@@ -19,7 +19,7 @@ namespace WmsDataProviderExample {
             Provider.ResponseCapabilities += OnResponseCapabalities;
         }
 
-        void OnResponseCapabalities(object sender, CapabilitiesResponsedEventArgs e) {
+        void OnResponseCapabalities(object sender, CapabilitiesRespondedEventArgs e) {
             tlLayers.DataSource = e.Layers;
         }
 
